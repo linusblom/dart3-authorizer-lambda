@@ -7,7 +7,7 @@
     "bundle": "rm -rf dist; tsc; cp -r node_modules dist/node_modules; cd dist; zip -r dart3-authorizer-lambda.zip ."
   },
   "dependencies": {
-    "auth0": "^2.23.0",
+    "auth0": "^2.27.1",
     "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
